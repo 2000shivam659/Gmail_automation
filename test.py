@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly', 'https://www.googleapis.com/auth/gmail.send',
           'https://www.googleapis.com/auth/cloud-platform', 'https://www.googleapis.com/auth/gmail.compose',
           'https://www.googleapis.com/auth/gmail.modify']
-REDIRECT_URI = 'YOUR_REDIRECTED_URI'
+REDIRECT_URI = 'https://developers.google.com/oauthplayground/'
 
 
 def exchange_code(authorization_code):
