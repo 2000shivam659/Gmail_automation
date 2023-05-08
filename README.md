@@ -4,9 +4,11 @@
 
 ### <b>Brief:</b>
 
-- The requirement needs to be developed in Python 3
-- Code should follow pep8 standards and should include pydoc, logging & unit tests
-- Please provide github link for review.
+1. Checks for new emails in a given Gmail ID.
+2. Replies to emails that have no prior replies.
+3. Adds a label to the replied email and moves the email to the label.
+4. Repeats task in random intervals of 45 to 120 secs.
+5. Ensure no double replies are sent to any email at any point of time.
 
 <hr>
 
