@@ -49,7 +49,6 @@ def load_or_get_credentials():
         # Save the credentials
         with open("tokens.json", "w") as cred_json:
             cred_json.write(tokens.to_json())
-
         return tokens
 
 
