@@ -57,7 +57,7 @@ def send_replies_labels():
     # Create a Gmail API client
     service = build('gmail', 'v1', credentials=creds)
     # Retrieve the user's Gmail messages
-    results = service.users().messages().list(userId='2000shivam659@gmail.com', q='is:unread', maxResults=2).execute()
+    results = service.users().messages().list(userId='2000shivam659@gmail.com', q='is:unread', maxResults=10).execute()
     emails = results.get('messages', [])
 
     # Loop through the emails and reply to ones that have no prior replies
