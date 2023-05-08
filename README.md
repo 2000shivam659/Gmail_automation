@@ -17,3 +17,11 @@
 Note - You have to reply to the emails instead of sending new emails.
 
 <hr>
+
+### <b>Reference:</b>
+
+1. https://console.cloud.google.com/marketplace/product/google/gmail.googleapis.com?q=search&referrer=search&project=spiritual-oxide-320217
+2. https://developers.google.com/gmail/api/quickstart/python
+3. Other websites and documents.
+
+<hr>
