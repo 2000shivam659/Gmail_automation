@@ -1,6 +1,5 @@
 # Gmail Automation
 
-<hr>
 
 ### <b>Project Video link:</b>
 
