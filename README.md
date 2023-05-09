@@ -8,8 +8,6 @@ https://drive.google.com/file/d/19A9YO_E_KFr9jCyXLxC-6hnRCy8786NN/view?usp=share
 
 <hr>
 
-<hr>
-
 ### <b>Brief:</b>
 
 1. Checks for new emails in a given Gmail ID.
