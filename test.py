@@ -89,8 +89,7 @@ def send_replies_labels():
             results = service.users().labels().list(userId='me').execute()
             label_id = next((label['id'] for label in results['labels'] if label['name'] == label_name), None)
             label = {"addLabelIds": [label_id]}
-            response = service.users().messages().modify(userId=EMAIL, id=thread_id,
-                                                         body=label).execute()
+            response = service.users().messages().modify(userId=EMAIL, id=thread_id, body=label).execute()
             print(f'Moved email to label: {label_name}')
         except HttpError as error:
             print(F'An error occurred: {error}')
